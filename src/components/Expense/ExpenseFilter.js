@@ -5,6 +5,7 @@ function ExpensesFilter(props){
     props.onChangeFilter(event.target.value);
   };
 
+  //Returns a drop down list which enables filtering of Year
   return (
     <div className='expenses-filter'>
       <div className='expenses-filter__control'>

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Expenses from './components/Expense/Expenses';
 import NewExpense from './components/NewExpense/NewExpense';
 
+//Declare init expenses
 const initExpenses = [
   { id: Math.random().toString(), date: new Date(2021, 2, 28), title: 'ATM Withdrawal', amount: 40.0},
   { id: Math.random().toString(), date: new Date(2021, 2, 28), title: 'Stock Withdrawal', amount: 2500.0},
@@ -13,6 +14,7 @@ const initExpenses = [
 ]
 
 function App() {
+  //Update state of expenses after adding new expense
   const [expenses, setExpenses] = useState(initExpenses)
 
   function addExpenseHandler(newExpense){
