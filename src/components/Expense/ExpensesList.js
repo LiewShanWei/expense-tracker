@@ -1,6 +1,6 @@
 import './ExpensesList.css';
 
-import ExpenseItem from './ExpenseItem';
+import ExpenseItem from '../ExpenseItem/ExpenseItem';
 
 //Show no Expenses found if length is 0
 //Otherwise, build ExpenseItem component based on given filtered expense
