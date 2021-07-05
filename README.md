@@ -2,4 +2,4 @@
 
 # Created whilst learning ReactJS :)
 
-Created from npx react-create-app
+Created from npx create-react-app
